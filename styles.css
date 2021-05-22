@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
+.graph-container {
+  margin: auto;
+  display: grid;
+}
+
+g.type-TK > rect {
+  fill: #00ffd0;
+}
+text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.node rect {
+  stroke: #999;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.edgePath path {
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+.blue rect {
+  fill: blue;
+}
+.green path {
+  fill: red;
+  stroke: red;
+}
+.graph-edges {
+  display: flex;
+  justify-content: space-between;
+}
+.edge-node {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.node-label-inner {
+  text-align: center;
+  position: relative;
+}
+.node-number {
+  width: 100%;
+  text-align: center;
+}
+foreignObject {
+  overflow: visible;
+}
+.node-desc {
+  position: absolute;
+  background: white;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
