@@ -32,6 +32,8 @@ g.setNode(17, { label: "100", class: "type-TK" });
 g.setNode(18, { label: "100", class: "type-TK" });
 g.setNode(19, { label: "100", class: "type-TK" });
 
+g.node(7).class = "blue";
+
 g.nodes().forEach(function (v) {
   var node = g.node(v);
   // Round the corners of the nodes
